@@ -38,5 +38,5 @@ jobs:
       - run: flutter build ios --release --no-codesign
       - uses: actions/upload-artifact@v3
         with:
-          name: release-ipa
-          path: build/ios/ipa/*.ipa
+          name: Runner.app
+          path: build/ios/iphoneos/Runner.app
